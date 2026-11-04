@@ -1,4 +1,3 @@
-$codigo = @'
 const TAMANHO_MAXIMO_NOME = 60;
 const PADRAO_NOME = /^[A-Za-zÀ-ÿ\s'-]+$/;
 
@@ -29,4 +28,3 @@ function cadastrarUsuario(listaUsuarios, nomeUsuario) {
 }
 
 module.exports = { validarNome, cadastrarUsuario };
-'@
