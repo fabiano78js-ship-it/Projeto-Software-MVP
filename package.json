@@ -1,0 +1,28 @@
+{
+  "name": "projeto-software-mvp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiano78js-ship-it/Projeto-Software-MVP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fabiano78js-ship-it/Projeto-Software-MVP/issues"
+  },
+  "homepage": "https://github.com/fabiano78js-ship-it/Projeto-Software-MVP#readme",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
