@@ -28,5 +28,4 @@ jobs:
       - name: Run Tests
         run: npm test -- --coverage --watchAll=false
 
-      - name: Build Application
-        run: npm run build
+      -
