@@ -1,10 +1,9 @@
-name: CI Pipeline
+name: CI
 
 on:
   push:
     branches:
       - main
-
   pull_request:
     branches:
       - main
@@ -17,15 +16,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Install Dependencies
-        run: npm ci
+      - name: Instalar dependências
+        run: npm install
 
-      - name: Run Tests
-        run: npm test -- --coverage --watchAll=false
-
-      -
+      - name: Executar testes
+        run: npm test
